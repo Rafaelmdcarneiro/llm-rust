@@ -1,0 +1,22 @@
+[package]
+name = "ggml"
+version = "0.2.0-dev"
+repository = { workspace = true }
+edition = "2021"
+description = "Semi-idiomatic Rust bindings for the ggml library (from `ggml-sys`)."
+license = "MIT"
+
+[dependencies]
+ggml-sys = { path = "sys", version = "0.2.0-dev" }
+
+thiserror = { workspace = true }
+memmap2 = { workspace = true }
+
+[dev-dependencies]
+rand = { workspace = true }
+anyhow = { workspace = true }
+
+[features]
+cublas = ["ggml-sys/cublas"]
+clblast = ["ggml-sys/clblast"]
+metal = ["ggml-sys/metal"]
