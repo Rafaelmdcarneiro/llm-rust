@@ -6,12 +6,6 @@ machine learning.
 
 ![A llama riding a crab, AI-generated](./doc/img/llm-crab-llama.png)
 
-> _Image by [@darthdeus](https://github.com/darthdeus/), using Stable Diffusion_
-
-[![Latest version](https://img.shields.io/crates/v/llm.svg)](https://crates.io/crates/llm)
-![MIT/Apache2](https://shields.io/badge/license-MIT%2FApache--2.0-blue)
-[![Discord](https://img.shields.io/discord/1085885067601137734)](https://discord.gg/YB9WaXYAWU)
-
 ## Current State
 
 There are currently four available versions of `llm` (the crate and the CLI):
